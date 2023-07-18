@@ -1,0 +1,511 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686338174195447, "dur": 1804601, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338174195625, "dur": 1233, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338174196861, "dur": 19070, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338174215932, "dur": 550549, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338174766484, "dur": 1232290, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338175998776, "dur": 1272, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338176000292, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686338174626741, "dur": 104757, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686338174627856, "dur": 31512, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686338174718859, "dur": 3320, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686338174722184, "dur": 9306, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686338174722719, "dur": 8307, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686338174734775, "dur": 997, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686338174734135, "dur": 1666, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338176000345, "dur": 116, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686338174794538, "dur":614, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338174795157, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686338174795201, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686338174795210, "dur":293, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686338174795518, "dur":291, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338174795809, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980334, "dur":56, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980390, "dur":99, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980489, "dur":179, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980668, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980695, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980697, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980702, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980703, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980707, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980708, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980711, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980712, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980715, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980716, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980718, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980719, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980723, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980723, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980726, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980727, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980730, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980731, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980734, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980735, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980738, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980738, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980742, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980743, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980745, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980746, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980750, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980750, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980753, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980766, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175980787, "dur":814, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686338174795703, "dur":131, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338174795834, "dur":2474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338174798309, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686338174798526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338174804094, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686338174805961, "dur":68557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338174874522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338174874837, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338174875959, "dur":15431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338174891394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338174891402, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338174892376, "dur":129694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175022073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175022077, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175023320, "dur":232034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175255361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175255372, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175256517, "dur":19447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175275969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175275980, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175277315, "dur":16760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175294078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175294084, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175295554, "dur":15159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175310717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175310725, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175311452, "dur":135026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175446483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175446491, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175448462, "dur":155526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175603991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175603999, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175605357, "dur":372976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175978337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686338175978344, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686338175980283, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1686338175980285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338174795703, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338174795830, "dur":2475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338174798306, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686338174798642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338174800290, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686338174803410, "dur":812236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686338175615651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175615745, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686338175619307, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1686338175619331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175619387, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1686338175620653, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686338175620673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175620681, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686338175622123, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686338175622272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175622280, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686338175623399, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1686338175624202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175624212, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1686338175625344, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686338175625358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175625364, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686338175626652, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1686338175626666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175626672, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1686338175627566, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686338175627575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175627579, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686338175628441, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686338175628487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686338175628493, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686338175629812, "dur":350504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338174795662, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338174795819, "dur":2475, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338174798303, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1686338174798310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338174802917, "dur":293, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1686338174803213, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1686338174803235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338174803544, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1686338174804208, "dur":148716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686338174952927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338174952931, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686338174957824, "dur":454875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686338175412703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338175412709, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686338175414036, "dur":192820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686338175606862, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338175606874, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686338175610618, "dur":162501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686338175773123, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686338175773132, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686338175774172, "dur":206178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338174795676, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338174795821, "dur":2566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338174798387, "dur":75876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686338174874266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338174874285, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686338174876582, "dur":144518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175021104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338175021135, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175022660, "dur":222833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175245497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338175245505, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175247990, "dur":196691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175444685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338175444693, "dur":21153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175465866, "dur":32456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175498347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338175498359, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175499358, "dur":285836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175785199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686338175785207, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686338175787599, "dur":192740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174795692, "dur":132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174795824, "dur":2489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174798314, "dur":64367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686338174862684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174862698, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686338174865957, "dur":29534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338174895494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174895502, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338174896511, "dur":14258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338174910773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174910781, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338174913227, "dur":24480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338174937736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338174937748, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338174938731, "dur":355212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338175293949, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338175293987, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338175295091, "dur":192052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338175487148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338175487157, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338175488459, "dur":394507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338175882970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686338175882977, "dur":30819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686338175913823, "dur":66488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686338174795727, "dur":109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686338174795836, "dur":2482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686338174798318, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686338174798475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686338174799861, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686338174803626, "dur":797681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1686338175601312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686338175601318, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1686338175602746, "dur":33057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686338175635810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686338175635819, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686338175637325, "dur":343007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338174795748, "dur":92, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338174795840, "dur":2467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338174798307, "dur":47604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686338174845917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338174845938, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686338174846857, "dur":49457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338174896316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338174896326, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338174897312, "dur":352412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175249728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338175249737, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175251088, "dur":13110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175264202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338175264209, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175265221, "dur":74883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175340109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338175340119, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175341402, "dur":23276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175364681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338175364688, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175365790, "dur":77930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175443726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338175443735, "dur":21918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175465668, "dur":163308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175628980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686338175628987, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686338175630534, "dur":349800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686338174795768, "dur":76, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686338174795844, "dur":2453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686338174798303, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1686338174798492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686338174800368, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1686338174803465, "dur":977205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686338175780675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686338175780683, "dur":10139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686338175790868, "dur":189467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338174795779, "dur":68, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338174795847, "dur":2455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338174798305, "dur":63123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1686338174861433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338174861569, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1686338174865914, "dur":584457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686338175450376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338175450386, "dur":15314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686338175465712, "dur":133728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686338175599448, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338175599462, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686338175601532, "dur":242263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686338175843799, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686338175843808, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686338175844752, "dur":135580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338174795816, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338174795817, "dur":2569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338174798387, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1686338174798624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338174800325, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1686338174803238, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1686338174803392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338174803400, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1686338174805635, "dur":73721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686338174879363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338174879374, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686338174881840, "dur":837594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686338175719438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686338175719446, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686338175720372, "dur":259937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174795852, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174795852, "dur":2539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174798392, "dur":76166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686338174874562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174874578, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686338174876957, "dur":43085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338174920047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174920055, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338174921096, "dur":26328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338174947428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174947435, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338174948244, "dur":29497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338174977746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338174977752, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338174979714, "dur":401695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175381413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338175381421, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175382629, "dur":70714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175453345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338175453350, "dur":12307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175465669, "dur":62563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175528238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338175528248, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175529717, "dur":112083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175641804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686338175641813, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686338175643190, "dur":337125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174795878, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174795879, "dur":2511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174798390, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1686338174798694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174799975, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1686338174803334, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1686338174803401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174803405, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1686338174805602, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1686338174805677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174805818, "dur":14909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1686338174820755, "dur":56311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338174877069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174877152, "dur":4192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338174881365, "dur":40820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338174922189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338174922199, "dur":3999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338174926215, "dur":407650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175333869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338175333876, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175335448, "dur":20085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175355535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338175355540, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175356379, "dur":17153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175373536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338175373543, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175374455, "dur":99138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175473599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338175473609, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175475675, "dur":289603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175765284, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686338175765299, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686338175766753, "dur":213560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338174795914, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338174795915, "dur":2384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338174798303, "dur":74155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1686338174872463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338174872486, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1686338174873555, "dur":146186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175019746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175019752, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175023168, "dur":28555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175051727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175051734, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175052810, "dur":11627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175064479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175064485, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175065260, "dur":10867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175076129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175076135, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175076857, "dur":11333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175088194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175088200, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175088882, "dur":11892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175100779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175100805, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175101541, "dur":20134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175121679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175121687, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175122431, "dur":12343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175134779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175134787, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175135486, "dur":111755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175247245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175247251, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175250094, "dur":16037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175266134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175266140, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175267006, "dur":14271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175281283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175281293, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175282125, "dur":32639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175314767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175314774, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175315661, "dur":11715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175327379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175327385, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175328043, "dur":25785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175353831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175353838, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175354623, "dur":25953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175380580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175380587, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175381427, "dur":29347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175410778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175410785, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175411561, "dur":61809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175473376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175473385, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175475136, "dur":70404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175545551, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175545569, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175547042, "dur":323035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175870081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686338175870088, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686338175871639, "dur":108708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338174795951, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338174795952, "dur":2344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338174798303, "dur":85808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1686338174884115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338174884342, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1686338174885717, "dur":24675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338174910397, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338174910408, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338174913105, "dur":98577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175011686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175011693, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175012602, "dur":28108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175040714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175040722, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175041620, "dur":18459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175060090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175060104, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175061420, "dur":12695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175074119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175074125, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175074882, "dur":19662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175094547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175094554, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175095435, "dur":12527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175107966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175107973, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175108683, "dur":159269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175267957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175267966, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175269095, "dur":173386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175442486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175442496, "dur":23127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175465642, "dur":170385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175636032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686338175636040, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686338175637787, "dur":342544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338174795981, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338174795982, "dur":2321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338174798304, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1686338174798688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338174800065, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1686338174803389, "dur":125752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338174929146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338174929650, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338174930999, "dur":411356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175342358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338175342363, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175343635, "dur":77194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175420835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338175420844, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175421885, "dur":30092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175451981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338175451987, "dur":13909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175465912, "dur":129235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175595153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338175595164, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175596534, "dur":88440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175684978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686338175684986, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686338175685922, "dur":294396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338174796028, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338174796029, "dur":2271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338174798303, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1686338174798484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338174800096, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1686338174803000, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1686338174803121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338174803242, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1686338174805711, "dur":68803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338174874518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338174874794, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338174875968, "dur":369314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175245289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175245299, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175248920, "dur":20789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175269712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175269718, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175270385, "dur":13650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175284037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175284043, "dur":580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175284632, "dur":14483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175299118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175299125, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175299929, "dur":12516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175312448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175312454, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175313021, "dur":11931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175324955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175324963, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175325980, "dur":15677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175341662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175341670, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175342483, "dur":22193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175364680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175364688, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175365558, "dur":23832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175389393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175389400, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175390137, "dur":219408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175609553, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175609566, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175610930, "dur":17190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175628124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175628131, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686338175629386, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1686338175629557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686338175629563, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jayvee Alcantara/Desktop/GMDEVAI Builds/GMDEVAI_Milestone1_Alcantara_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1686338175630574, "dur":349740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686338175994616, "dur":1157, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686338176000487, "dur": 907, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686338176000282, "dur": 1133, "ph": "X", "name": "Write chrome-trace events", "args": {} },
